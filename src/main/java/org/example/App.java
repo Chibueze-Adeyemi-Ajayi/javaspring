@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello JILO Billionaire!" );
+//        java singleton
+        Car car = Car.getInstance();
+        car.print_car_name();
     }
 }
