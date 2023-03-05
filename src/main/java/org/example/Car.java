@@ -1,7 +1,7 @@
 package org.example;
 
-public class Car {
-    void print_car_name () {
+public class Car implements Vehicle {
+    public void print_car_name () {
         System.out.println("Royce Rolls");
     }
 
